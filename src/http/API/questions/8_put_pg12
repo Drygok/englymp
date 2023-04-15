@@ -1,0 +1,97 @@
+<div class="Writigng1">
+	<h2>Writing</h2>
+	<div class="container">
+		<div class="row column_">
+			<p>Read the text below and look carefully at each line. Some of the lines are correct, and
+			some have a word which should not be there. If a line is correct, put a OK at the end of the line. If a line
+			has a word which should not be there, write the word. There are two examples at the beginning</p>
+			
+			<div>
+				<p>A colleague at work had a small boat in which every weekend <input type="text" placeholder="Your answer" value="OK" maxlength="32" readonly></p>
+			</div>
+			<div>
+				<p>he used to go for sailing. He invited myself and a friend to go <input type="text" placeholder="Your answer" value="for" maxlength="32" readonly></p>
+			</div>
+			
+			<br/>
+			<br/>
+			
+			<div>
+				<p>with him on a sailing trip. We imagined that ourselves sitting on <input type="text" placeholder="Your answer" value="" id="a801" maxlength="32"></p>
+			</div>
+			<br/>
+			<div>
+				<p>the deck of the boat, near a beach, sunbathing and doing what we <input type="text" placeholder="Your answer" value="" id="a802" maxlength="32"></p>
+			</div>
+			<br/>
+			<div>
+				<p>wanted. But the reality was much more different. Our friend, who <input type="text" placeholder="Your answer" value="" id="a803" maxlength="32"></p>
+			</div>
+			<br/>
+			<div>
+				<p>owned it the boat, wanted to do some real sailing and was only <input type="text" placeholder="Your answer" value="" id="a804" maxlength="32"></p>
+			</div>
+			<br/>
+			<div>
+				<p>happy with at sea. As a result, we were actually at sea most <input type="text" placeholder="Your answer" value="" id="a805" maxlength="32"></p>
+			</div>
+			<br/>
+			<div>
+				<p>of the time. To make matters the worse our friend spent a lot <input type="text" placeholder="Your answer" value="" id="a806" maxlength="32"></p>
+			</div>
+			<br/>
+			<div>
+				<p>of the time shouting orders at us. Whatever was the weather <input type="text" placeholder="Your answer" value="" id="a807" maxlength="32"></p>
+			</div>
+			<br/>
+			<div>
+				<p>we sailed on and on. We did get a tan but not from the sun, <input type="text" placeholder="Your answer" value="" id="a808" maxlength="32"></p>
+			</div>
+			<br/>
+			<div>
+				<p>it was from the strong winds in which blew cold sea water <input type="text" placeholder="Your answer" value="" id="a809" maxlength="32"></p>
+			</div>
+			<br/>
+			<div>
+				<p>in our faces all day. We had been imagined a relaxing time <input type="text" placeholder="Your answer" value="" id="a810" maxlength="32"></p>
+			</div>
+			<br/>
+			<div>
+				<p>doing for nothing but it was not the case. Unfortunately, when <input type="text" placeholder="Your answer" value="" id="a811" maxlength="32"></p>
+			</div>
+			<br/>
+			<div>
+				<p>we got back to home our friends were very envious and <input type="text" placeholder="Your answer" value="" id="a812" maxlength="32"></p>
+			</div>
+			<br/>
+			<div>
+				<p>would not believe that we had had such a demanding time. <input type="text" placeholder="Your answer" value="" id="a813" maxlength="32"></p>
+			</div>
+			<br/>
+			<div>
+				<p>We were considered to be very lucky people indeed and <input type="text" placeholder="Your answer" value="" id="a814" maxlength="32"></p>
+			</div>
+			<br/>
+			<div>
+				<p>they could not understand why we were complaining about. <input type="text" placeholder="Your answer" value="" id="a815" maxlength="32"></p>
+			</div>
+			<br/>
+			
+		</div>
+		<input type="submit" class="answer_button" value="Reply" id="b8" onclick="
+				var token = (new URLSearchParams(window.location.search)).get('token');
+				var questions = '';
+				var answers = '';
+				
+				for (var i = 1; i <= 15; i++) {
+					questions += '&questions[]=' + (800 + i);
+					answers += '&answers[]=' + document.getElementById('a' + (800 + i)).value;
+				}
+				
+				var xhr = new XMLHttpRequest();
+				xhr.open('GET', 'https://englymp.ru/API/user.steps.done.php?' + questions + answers + '&token=' + token, false);
+				xhr.send();
+				if (time > 0) alert(xhr.responseText);
+			 ">			
+	</div>
+</div>

@@ -1,0 +1,155 @@
+<div class="reading3">
+	<h2>Reading</h2>
+	<div class="container">
+		<div class="row column_">
+			<p>
+				Read the text and questions below.
+				For each question, mark the correct letter A, B, C or D.
+			</p>
+		
+			<div class="reading3_text ">
+				<h3 class="reading3_text_title ">
+					Indian films <br> Actor Amitabh Bachchan talks about his experiences
+				</h3>		
+				<p>
+					I have spent over 30 years in the Indian film industry and have worked with almost three generations of directors and actors. There was a time when life in the movies was very different. It was slower and everything seemed simpler. Now, there are so many things to be dealt with: the light needs to be right, the equipment needs to be returned, the actors have to be somewhere else. There also used to be a sense of magic about the movie industry and the stars were special, Now they are just one of a crowd.
+					<br> 
+				</p>
+				<p>
+				 However, in my experience, the new generation of film-makers take their work seriously and they are all very confident. Sometimes, when a young director is talking to me about a scene, I can see technical difficulties. For example, in the film Aks we needed wild dogs for a particular scene and I asked Rakesh Mehra how we would do that. He said it was not a problem, He found an address on the internet and we shot the scene in Romania. More often, Rakesh is anxious about getting the actors’ dates right or sorting out the financial side.
+					<br> 
+				</p>
+				<p>
+					Most of today’s young directors have trained in the United States. They have learnt how to plan their productions in great detail and they are extremely well prepared. Before filming starts, they have already made decisions about the costumes, make-up, camera angles and so on. For an actor it means there’s someone taking care of everything, It makes the filming go smoothly. I have little doubt that the future of our film industry is in very good hands. <br>
+				</p>
+			</div>
+			
+			
+			
+			<div class="answer_choice_8">
+				<ol style="list-style-type: none;">
+					<li>
+						<span><b>What is Amitabh Bachchan trying to do in this text?</b></span>
+						<ol type="A">
+							<li>
+								<input type="radio" name="bigtext2_1" value="A" id="a901" checked>
+								<span>suggest how Indian actors could improve their technique</span>
+							</li>
+							<li>
+								<input type="radio" name="bigtext2_1" value="B" id="a901">
+								<span>compare Indian films with those made in the USA</span>
+							</li>
+							<li>
+								<input type="radio" name="bigtext2_1" value="C" id="a901">
+								<span>encourage people to watch more Indian films</span>
+							</li>
+							<li>
+								<input type="radio" name="bigtext2_1" value="D" id="a901">
+								<span>describe changes in the Indian film industry</span>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<span><b>What does Amitabh Bachchan say about the Indian film industry today?</b></span>
+						<ol type="A">
+							<li>
+								<input type="radio" name="bigtext2_2" value="A" id="a902" checked>
+								<span>Every stage of filming takes a long time.</span>
+							</li>
+							<li>
+								<input type="radio" name="bigtext2_2" value="B" id="a902">
+								<span>The film stars are famous around the world.</span>
+							</li>
+							<li>
+								<input type="radio" name="bigtext2_2" value="C" id="a902">
+								<span>The people involved in filming have a lot to do.</span>
+							</li>
+							<li>
+								<input type="radio" name="bigtext2_2" value="D" id="a902">
+								<span>It is difficult for young actors to start their careers.</span>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<span><b>What happened when Amitabh Bachchan and Rakesh Mehra worked together on Aks?</b></span>
+						<ol type="A">
+							<li>
+								<input type="radio" name="bigtext2_3" value="A" id="a903" checked>
+								<span>They disliked working with one another.</span>
+							</li>
+							<li>
+								<input type="radio" name="bigtext2_3" value="B" id="a903">
+								<span>They argued about the best actor to use.</span>
+							</li>
+							<li>
+								<input type="radio" name="bigtext2_3" value="C" id="a903">
+								<span>They disagreed about acceptable levels of cost.</span>
+							</li>
+							<li>
+								<input type="radio" name="bigtext2_3" value="D" id="a903">
+								<span>They worried about different things in making the film.</span>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<span><b>What is Amitabh Bachchan's opinion of young directors?</b></span>
+						<ol type="A">
+							<li>
+								<input type="radio" name="bigtext2_4" value="A" id="a904" checked>
+								<span>They have a professional attitude towards their work.</span>
+							</li>
+							<li>
+								<input type="radio" name="bigtext2_4" value="B" id="a904">
+								<span>They are careful not to annoy any of the actors.</span>
+							</li>
+							<li>
+								<input type="radio" name="bigtext2_4" value="C" id="a904">
+								<span>They like to discuss their decisions with others.</span>
+							</li>
+							<li>
+								<input type="radio" name="bigtext2_4" value="D" id="a904">
+								<span>They make sure that everyone is well trained.</span>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<span><b>How would Amitabh Bachchan describe the Indian film industry?</b></span>
+						<ol type="A">
+							<li>
+								<input type="radio" name="bigtext2_5" value="A" id="a905" checked>
+								<span>The films we made when I was younger were so much better - more money is available today but the acting is worse.</span>
+							</li>
+							<li>
+								<input type="radio" name="bigtext2_5" value="B" id="a905">
+								<span>Indian film-makers know what they are doing - the industry is growing in strength and I think it will continue to do so.</span>
+							</li>
+							<li>
+								<input type="radio" name="bigtext2_5" value="C" id="a905">
+								<span>Our new generation of film-makers depends too much on technology - they don't realise what makes a really good film.</span>
+							</li>
+							<li>
+								<input type="radio" name="bigtext2_5" value="D" id="a905">
+								<span>There are some great young actors today - they have to film scenes unprepared and this makes them very special.</span>
+							</li>
+						</ol>
+					</li>
+				</ol>
+			</div>
+		</div>
+	<input type="submit" class="answer_button" value="Reply" id="b9" onclick="
+		var token = (new URLSearchParams(window.location.search)).get('token');
+		var questions = '';
+		var answers = '';
+		
+		for (var i = 1; i <= 5; i++) {
+			questions += '&questions[]=' + (900 + i);
+			answers += '&answers[]=' + document.querySelector('input[id=a' + (900 + i) + ']:checked').value;
+		}
+		
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', 'https://englymp.ru/API/user.steps.done.php?' + questions + answers + '&token=' + token, false);
+		xhr.send();
+		if (time > 0) alert(xhr.responseText);
+	 ">
+	</div>
+</div>

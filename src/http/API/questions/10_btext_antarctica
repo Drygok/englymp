@@ -1,0 +1,154 @@
+<div class="reading3">
+	<h2>Reading</h2>
+	<div class="container">
+		<div class="row column_">
+				<p>
+					Look at the sentences below about two people who have visited Antarctica.
+					Read the text to decide if each sentence is correct or incorrect.
+					If it is <b>correct</b>, mark <b>A</b>.<br>
+					If it is <b>not correct</b>, mark <b>B</b>.
+				</p>
+				<div class="reading3_text">
+				<h3 class="reading3_text_title">Antarctica</h3>
+				<!-- текст желательно разбить по кускам вот таким. нужно больше, <p> <br> </p> добавляешь, не надо, убавляешь. при всем желании можно записать в один p все, просто не будет красивых отступов -->
+				<p>
+					Antarctica has had a powerful effect on both explorers and scientists. In 1994 I discovered why, when I spent seven months there collecting material for a travel book. I have often thought the amazing emptiness of this region would attract the interest of many landscape painters and yet, throughout history, only a small number have actually been there.
+				</p>
+				<br>
+				<p>
+					In 2003, one of them, the 67-year-old painter Philip Hughes, opened a one-man show in London called simply ‘Antarctica’. Until 1975, Hughes’s paintings were mostly of the South Downs in England, but at this point, Hughes decided he wanted to paint more distant lands. First, he travelled to South America. Then in 2001, he spent five weeks in Antarctica, dividing his time between Rothera, a British research centre on Adelaide Island, and a science camp up on the West Antarctic ice sheet.
+				</p>
+				<br>
+				<p>
+					Antarctica simply isn’t like anywhere else on this planet and for me this was the best thing about my visit. It is one-and-a-half times bigger than the United States but it is very peaceful. It also never gets dark. When I went to Hughes's show, we looked at his paintings together. He explained, 'I was just amazed by the beauty of Antarctica. It didn’t matter that our nearest neighbours were 800 kilometres away.
+				</p>
+				<br>
+				<p>
+					The temperatures can be extreme. At my camp they reached —115°C and at times I felt terrible. But back in England, looking at Hughes’s painting Leonie Island at Midnight, I remembered what Antarctica was like when a storm ended. It was as if the world was new. Then I wondered why I came back. Hughes was there in summer, and the temperatures were around zero. He could draw in these conditions but if it got colder, he needed to wear gloves. The picture Christmas Day at Rothera was drawn on paper while Hughes sat on the ice. He didn’t put paint on it until later when he went inside, a common technique with Hughes. Although there are colours in Antarctica, most of the continent is white. “The technical difficulty involved in painting there,’ explained Hughes, ‘was working in white. When I used even a little blue and green, I had to work very carefully.”
+				</p>
+				<br>
+				<p>
+					I asked Hughes why he went to Antarctica. ‘Today, people are controlled by things like mobile phones and email. I had to get away from this. You only become aware of the absence, say, of planes overhead, when there aren't any. When it's only you and the natural world, you completely understand its power.’ <br>
+				</p>
+			</div>
+			<div class="answer_choice_8">
+				<ol style="list-style-type: none;">
+					<li>
+						<span><b>Sara Wheeler went to Antarctica to do some scientific research.</b></span>
+						<div class="radio_box_2"> 
+							<input type="radio" name="bigtext1_1" value="A" id="a1001" checked>
+							<span>A</span>
+						</div>
+						<div class="radio_box_2">
+							<input type="radio" name="bigtext1_1" value="B" id="a1001">
+							<span>B</span>
+						</div>
+					</li>
+					<li>
+						<span><b>Sara Wheeler was surprised by how few artists have travelled to Antarctica.</b></span>
+						<div class="radio_box_2"> 
+							<input type="radio" name="bigtext1_2" value="A" id="a1002" checked>
+							<span>A</span>
+						</div>
+						<div class="radio_box_2">
+							<input type="radio" name="bigtext1_2" value="B" id="a1002">
+							<span>B</span>
+						</div>
+					</li>
+					<li>
+						<span><b>Philip Hughes was one of many artists to have paintings on display at the 'Antarctica' exhibition.</b></span>
+						<div class="radio_box_2"> 
+							<input type="radio" name="bigtext1_3" value="A" id="a1003" checked>
+							<span>A</span>
+						</div>
+						<div class="radio_box_2">
+							<input type="radio" name="bigtext1_3" value="B" id="a1003">
+							<span>B</span>
+						</div>
+					</li>
+					<li>
+						<span><b>By 1975, Hughes realised that he needed to find other locations for his work.</b></span>
+						<div class="radio_box_2"> 
+							<input type="radio" name="bigtext1_4" value="A" id="a1004" checked>
+							<span>A</span>
+						</div>
+						<div class="radio_box_2">
+							<input type="radio" name="bigtext1_4" value="B" id="a1004">
+							<span>B</span>
+						</div>
+					</li>
+					<li>
+						<span><b>One of Hughes's paintings brought back happy memories of Antarctica for Sara Wheeler</b></span>
+						<div class="radio_box_2"> 
+							<input type="radio" name="bigtext1_5" value="A" id="a1005" checked>
+							<span>A</span>
+						</div>
+						<div class="radio_box_2">
+							<input type="radio" name="bigtext1_5" value="B" id="a1005">
+							<span>B</span>
+						</div>
+					</li>
+					<li>
+						<span><b>Hughes had to wear gloves whenever he drew a picture outdoors in Antarctica.</b></span>
+						<div class="radio_box_2"> 
+							<input type="radio" name="bigtext1_6" value="A" id="a1006" checked>
+							<span>A</span>
+						</div>
+						<div class="radio_box_2">
+							<input type="radio" name="bigtext1_6" value="B" id="a1006">
+							<span>B</span>
+						</div>
+					</li>
+					<li>
+						<span><b>Hughes completed the painting Christmas Day at Rothera outdoors.</b></span>
+						<div class="radio_box_2"> 
+							<input type="radio" name="bigtext1_7" value="A" id="a1007" checked>
+							<span>A</span>
+						</div>
+						<div class="radio_box_2">
+							<input type="radio" name="bigtext1_7" value="B" id="a1007">
+							<span>B</span>
+						</div>
+					</li>
+					<li>
+						<span><b>Hughes found it challenging to paint mainly in white.</b></span>
+						<div class="radio_box_2"> 
+							<input type="radio" name="bigtext1_8" value="A" id="a1008" checked>
+							<span>A</span>
+						</div>
+						<div class="radio_box_2">
+							<input type="radio" name="bigtext1_8" value="B" id="a1008">
+							<span>B</span>
+						</div>
+					</li>
+					<li>
+						<span><b>Hughes missed having his mobile phone in Antarctica.</b></span>
+						<div class="radio_box_2"> 
+							<input type="radio" name="bigtext1_9" value="A" id="a1009" checked>
+							<span>A</span>
+						</div>
+						<div class="radio_box_2">
+							<input type="radio" name="bigtext1_9" value="B" id="a1009">
+							<span>B</span>
+						</div>
+					</li>
+				</ol>
+			</div>
+		</div>
+		<input type="submit" class="answer_button" value="Reply" id="b10" onclick="
+			var token = (new URLSearchParams(window.location.search)).get('token');
+			var questions = '';
+			var answers = '';
+			
+			for (var i = 1; i <= 9; i++) {
+				questions += '&questions[]=' + (1000 + i);
+				answers += '&answers[]=' + document.querySelector('input[id=a' + (1000 + i) + ']:checked').value;
+			}
+			
+			var xhr = new XMLHttpRequest();
+			xhr.open('GET', 'https://englymp.ru/API/user.steps.done.php?' + questions + answers + '&token=' + token, false);
+			xhr.send();
+			if (time > 0) alert(xhr.responseText);
+		">
+	</div>
+</div>

@@ -1,0 +1,80 @@
+<div class="Writigng1">
+	<h2>Writing</h2>
+	<div class="container">
+		<div class="row column_">
+			<p>For questions, complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between two and five words, including the word given.</p>
+			<div>
+				<p>I’d rather you didn’t chew gum in the classroom. <b>prefer</b></p>
+				<p>I’d <input type="text" placeholder="Your answer" value="prefer you not" id="a700" maxlength="32" readonly> to chew gum in the classroom</p>
+			</div>
+			
+			<br/>
+			<br/>
+			
+			<div>
+				<p>It really wasn’t easy to find a flat in Rome <b>difficulty</b></p>
+				<p>I had <input type="text" placeholder="Your answer" value="" id="a701" maxlength="32"> a flat in Rome</p>
+			</div>
+			<br/>
+			<div>
+				<p>He said to me, ‘Don’t bring the dog again’ <b>told</b></p>
+				<p>He <input type="text" placeholder="Your answer" value="" id="a702" maxlength="32"> bring the dog again</p>
+			</div>
+			<br/>
+			<div>
+				<p>There were more accidents last year than this year <b>as</b></p>
+				<p>This year, there were not <input type="text" placeholder="Your answer" value="" id="a703" maxlength="32"> last year</p>
+			</div>
+			<br/>
+			<div>
+				<p>Despite his inability to speak the language well, he was understood <b>although</b></p>
+				<p>He was understood <input type="text" placeholder="Your answer" value="" id="a704" maxlength="32"> the language well</p>
+			</div>
+			<br/>
+			<div>
+				<p>There’s very little possibility of his failing the exam <b>chance</b></p>
+				<p>There is a good <input type="text" placeholder="Your answer" value="" id="a705" maxlength="32"> passing the exam</p>
+			</div>
+			<br/>
+			<div>
+				<p>They only gave him the job because his uncle worked there <b>given</b></p>
+				<p>He <input type="text" placeholder="Your answer" value="" id="a706" maxlength="32"> the job if his uncle had not worked there</p>
+			</div>
+			<br/>
+			<div>
+				<p>The firemen managed to extinguish the fire quickly <b>put</b></p>
+				<p>The fire <input type="text" placeholder="Your answer" value="" id="a707" maxlength="32"> by the firemen</p>
+			</div>
+			<br/>
+			<div>
+				<p>There’s little point in travelling if you expect every place to be like home <b>worth</b></p>
+				<p>It’s <input type="text" placeholder="Your answer" value="" id="a708" maxlength="32"> if you expect every place to be like home</p>
+			</div>
+			<br/>
+			<div>
+				<p>I’m sure it was John <b>been</b></p>
+				<p>It <input type="text" placeholder="Your answer" value="" id="a709" maxlength="32"> John</p>
+			</div>
+			<br/>
+			<div>
+				<p>When he was forty he finally got the job he wanted <b>until</b></p>
+				<p>It <input type="text" placeholder="Your answer" value="" id="a710" maxlength="32"> was forty that he got the job he wanted</p>
+			</div>
+		</div>
+		<input type="submit" class="answer_button" value="Reply" id="b7" onclick="
+				var token = (new URLSearchParams(window.location.search)).get('token');
+				var questions = '';
+				var answers = '';
+				
+				for (var i = 1; i <= 10; i++) {
+					questions += '&questions[]=' + (700 + i);
+					answers += '&answers[]=' + document.getElementById('a' + (700 + i)).value;
+				}
+				
+				var xhr = new XMLHttpRequest();
+				xhr.open('GET', 'https://englymp.ru/API/user.steps.done.php?' + questions + answers + '&token=' + token, false);
+				xhr.send();
+				if (time > 0) alert(xhr.responseText);
+			 ">			
+	</div>
+</div>

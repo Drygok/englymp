@@ -1,0 +1,84 @@
+<div class="audirovanie_2">
+	<h2>Listening</h2>
+	<audio controls><source src="https://englymp.ru/resources/audio_2.mp3" type="audio/mpeg">audio не поддерживается вашим браузером.</audio>
+	<div class="container">
+	 	<div class="row column_">
+	 		<p>
+				You will hear the pilot Kate Gingford talking about the last few days of her flight around the world in a small aeroplane.
+				For each question, put a tick in the correct box.
+	 		</p>
+			<span>
+				<b>Choose the correct option</b>
+			</span>
+	 		<div class="answer_choice_2">
+				<p>8. In Norway, Kate's friends helped her</p>
+				<select class="custom-select mr-sm-2" id="a201">
+					<option selected>...</option>
+					<option value="A">A. plan the route on the map.</option>
+					<option value="B">B. cook a meal before her flight. </option>
+					<option value="C">C. put on the clothes she would fly in.</option>
+				</select>
+	 		</div>
+	 		<div class="answer_choice_2">
+				<p>9. During the flight to Denmark, Kate</p>
+				<select class="custom-select mr-sm-2" id="a202">
+					<option selected>...</option>
+					<option value="A">A. felt very tired.</option>
+					<option value="B">B. spoke to her son. </option>
+					<option value="C">C. enjoyed views of the sea.</option>
+				</select>
+	 		</div>
+	 		<div class="answer_choice_2">
+				<p>10. On Monday, Kate was worried because</p>
+				<select class="custom-select mr-sm-2" id="a203">
+					<option selected>...</option>
+					<option value="A"> A. she had to land unexpectedly. </option>
+					<option value="B"> B. the plane was difficult to fly. </option>
+					<option value="C"> C. a wheel was not working properly. </option>
+				</select>
+	 		</div>
+	 		<div class="answer_choice_2">
+				<p>11. While staying at her friends’ farm, Kate</p>
+				<select class="custom-select mr-sm-2" id="a204">
+					<option selected>...</option>
+					<option value="A">A. enjoyed hearing the birds sing.</option>
+					<option value="B">B. got annoyed about losing flying time.</option>
+					<option value="C">C. made sure she got some extra sleep.</option>
+				</select>
+	 		</div>
+	 		<div class="answer_choice_2">
+				<p>12. Kate had to arrive at the flying club in England</p>
+				<select class="custom-select mr-sm-2" id="a205">
+					<option selected>...</option>
+					<option value="A"> A. during the afternoon. </option>
+					<option value="B"> B. while the weather was good. </option>
+					<option value="C"> C. before it got dark. </option>
+				</select>
+	 		</div>
+	 		<div class="answer_choice_2">
+				<p>13. How did Kate feel when she arrived in London?</p>
+				<select class="custom-select mr-sm-2" id="a206">
+					<option selected>...</option>
+			 		<option value="A"> A. pleased she had done the trip. </option>
+					<option value="B"> B. keen to make another long trip. </option>
+					<option value="C"> C. nervous about seeing her family again. </option>
+				</select>
+	 		</div>
+	 	</div>
+		<input type="submit" class="answer_button" value="Reply" id="b2" onclick="
+			var token = (new URLSearchParams(window.location.search)).get('token');
+			var questions = '';
+			var answers = '';
+			
+			for (var i = 1; i <= 6; i++) {
+				questions += '&questions[]=' + (200 + i);
+				answers += '&answers[]=' + document.getElementById('a' + (200 + i)).value;
+			}
+			
+			var xhr = new XMLHttpRequest();
+			xhr.open('GET', 'https://englymp.ru/API/user.steps.done.php?' + questions + answers + '&token=' + token, false);
+			xhr.send();
+			if (time > 0) alert(xhr.responseText);
+		">
+	</div>
+</div>

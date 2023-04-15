@@ -1,0 +1,98 @@
+<div class="audirovanie_3">
+	<h2>Listening</h2>
+	<audio controls><source src="https://englymp.ru/resources/audio_4.mp3 " type="audio/mpeg">audio не поддерживается вашим браузером.</audio>
+	<div class="container">
+		<div class="row column_">
+			<p>
+				Look at the six sentences for this part.
+				You will hear a conversation between a boy, Tom, and a girl, Jemma, who are studying in different parts of the country.
+				Decide if each sentence is correct or incorrect.
+				If it is correct, put a tick in the box under <b>A</b> for <b>YES</b>. If it is not correct, put a tick in the box under <b>B</b> for <b>NO</b>.
+			</p>		 
+			<div class="answer_choice_4">
+				<div class="audir_4_answer">
+					<span><b>Tom and Jemma had arranged to meet each other.</b></span>
+					<div class="radio_box_2">
+						<input type="radio" name="audir4_1" value="A" id="a401" checked>
+						<span>A</span>
+					</div>
+					<div class="radio_box_2">
+						<input type="radio" name="audir4_1" value="B" id="a401">
+						<span>B</span>
+					</div>
+				</div>
+				 <div class="audir_4_answer">
+					<span><b>The films at Kingsford cinema are usually rather out of date.</b></span>
+					<div class="radio_box_2">
+						<input type="radio" name="audir4_2" value="A" id="a402" checked>
+						<span>A</span>
+					</div>
+					<div class="radio_box_2">
+						<input type="radio" name="audir4_2" value="B" id="a402">
+						<span>B</span>
+					</div>
+				</div>
+				<div class="audir_4_answer">
+					<span><b>Tom is surprised that Jemma spends so much on entertainment.</b> 
+					</span>
+					<div class="radio_box_2">
+						<input type="radio" name="audir4_3" value="A" id="a403" checked>
+						<span>A</span>
+					</div>
+					<div class="radio_box_2">
+						<input type="radio" name="audir4_3" value="B" id="a403">
+						<span>B</span>
+					</div>
+				</div>
+				<div class="audir_4_answer">
+					<span><b>Jemma did a free course to get a qualification.</b></span>
+					<div class="radio_box_2">
+						<input type="radio" name="audir4_4" value="A" id="a404" checked>
+						<span>A</span>
+					</div>
+					<div class="radio_box_2">
+						<input type="radio" name="audir4_4" value="B" id="a404">
+						<span>B</span>
+					</div>
+				</div>
+				<div class="audir_4_answer">
+					<span><b>Tom thinks Jemma will find working at a swimming pool boring.</b></span>
+					<div class="radio_box_2">
+						<input type="radio" name="audir4_5" value="A" id="a405" checked>
+						<span>A</span>
+					</div>
+					<div class="radio_box_2">
+						<input type="radio" name="audir4_5" value="B" id="a405">
+						<span>B</span>
+					</div>
+				</div>
+				<div class="audir_4_answer">
+					<span><b>Tom is sure Jemma will get a job at the holiday camp.</b></span>
+					<div class="radio_box_2">
+						<input type="radio" name="audir4_6" value="A" id="a406" checked>
+						<span>A</span>
+					</div>
+					<div class="radio_box_2">
+						<input type="radio" name="audir4_6" value="B" id="a406">
+						<span>B</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<input type="submit" class="answer_button" value="Reply" id="b4" onclick="
+			var token = (new URLSearchParams(window.location.search)).get('token');
+			var questions = '';
+			var answers = '';
+			
+			for (var i = 1; i <= 6; i++) {
+				questions += '&questions[]=' + (400 + i);
+				answers += '&answers[]=' + document.querySelector('input[id=a' + (400 + i) + ']:checked').value;
+			}
+			
+			var xhr = new XMLHttpRequest();
+			xhr.open('GET', 'https://englymp.ru/API/user.steps.done.php?' + questions + answers + '&token=' + token, false);
+			xhr.send();
+			if (time > 0) alert(xhr.responseText);
+		">
+	</div>
+</div>

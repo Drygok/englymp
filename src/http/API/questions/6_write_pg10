@@ -1,0 +1,39 @@
+<div class="Writigng1">
+	<h2>Writing</h2>
+	<div class="container">
+		<div class="row column_">
+			<p>For questions, read the text below and think of the word which best fits each space. Use only one word in each space</p>
+			<h3>The Model T Ford</h3>
+			
+			<div>
+				The age of the car started <input type="text" placeholder="Your answer" value="on" id="a600" maxlength="32" readonly> the 12th August 1908, when the first Model T Ford rolled off
+				<input type="text" placeholder="Your answer" value="" id="a601" maxlength="32"> world’s first assembly line. From the beginning demand was high and orders came in from all
+				<input type="text" placeholder="Your answer" value="" id="a602" maxlength="32"> the world. Henry Ford quickly realized that the company <input type="text" placeholder="Your answer" value="" id="a603" maxlength="32"> 
+				have to expand quickly to meet demand. As a result, he introduced the idea <input type="text" placeholder="Your answer" value="" id="a604" maxlength="32"> 
+				‘the mass production line’. However, the company still <input type="text" placeholder="Your answer" value="" id="a605" maxlength="32"> 
+				problems meeting the orders so he <input type="text" placeholder="Your answer" value="" id="a606" maxlength="32"> to open another branch in Kansas City. Two years later, the company
+				<input type="text" placeholder="Your answer" value="" id="a607" maxlength="32"> producing cars on a moving assembly line. An official history of Ford says ‘In October 1913 mass production
+				<input type="text" placeholder="Your answer" value="" id="a608" maxlength="32"> the automobile began’. Before this, Ford <input type="text" placeholder="Your answer" value="" id="a609" maxlength="32">
+				only been able to organize men and components in order <input type="text" placeholder="Your answer" value="" id="a610" maxlength="32"> improve the efficiency of the Model, but the moving assembly line improved the
+				speed of chassis assembly <input type="text" placeholder="Your answer" value="" id="a611" maxlength="32"> 12 hours to only 1 hour 33 minutes. In 1914 Ford <input type="text" placeholder="Your answer" value="" id="a612" maxlength="32">
+				308,162 cars in his factories, <input type="text" placeholder="Your answer" value="" id="a613" maxlength="32"> was more than all the other manufacturers combined. The age of
+				<input type="text" placeholder="Your answer" value="" id="a614" maxlength="32"> car had definitely arrived and the car would become the most <input type="text" placeholder="Your answer" value="" id="a615" maxlength="32"> means of transport in the 20th century.
+			</div>
+		</div>
+		<input type="submit" class="answer_button" value="Reply" id="b6" onclick="
+				var token = (new URLSearchParams(window.location.search)).get('token');
+				var questions = '';
+				var answers = '';
+				
+				for (var i = 1; i <= 15; i++) {
+					questions += '&questions[]=' + (600 + i);
+					answers += '&answers[]=' + document.getElementById('a' + (600 + i)).value;
+				}
+				
+				var xhr = new XMLHttpRequest();
+				xhr.open('GET', 'https://englymp.ru/API/user.steps.done.php?' + questions + answers + '&token=' + token, false);
+				xhr.send();
+				if (time > 0) alert(xhr.responseText);
+			 ">			
+	</div>
+</div>

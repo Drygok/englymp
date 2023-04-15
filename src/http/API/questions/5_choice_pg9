@@ -1,0 +1,158 @@
+<div class="Writigng1">
+	<div class="container">
+	 	<div class="row column_">
+	 		<h3>Bears</h3>
+			<span>
+				<b>For questions, read the text below and decide which answer A, B, C, or D best fits each space</b>
+			</span>
+	 		<div class="answer_choice_2">
+				<p>Scientists in the United States have found that hibernating bears
+				<select class="custom-select mr-sm-2" id="a0">
+					<option selected>manage</option>
+				</select>
+				to keep fit in their sleep.</p>
+	 		</div>
+	 		<div>
+				The
+				<select class="custom-select mr-sm-2" id="a501">
+					<option selected>...</option>
+					<option value="A">discovery</option>
+					<option value="B">invention</option>
+					<option value="C">exploration</option>
+					<option value="D">experiment</option>
+				</select>
+				that over 130 days of winter hibernation bears
+				<select class="custom-select mr-sm-2" id="a502">
+					<option selected>...</option>
+					<option value="A">waste</option>
+					<option value="B">lose</option>
+					<option value="C">gain</option>
+					<option value="D">spend</option>
+				</select>
+				only a quarter of their muscle power was made by
+				<select class="custom-select mr-sm-2" id="a503">
+					<option selected>...</option>
+					<option value="A">investigators</option>
+					<option value="B">detectives</option>
+					<option value="C">researchers</option>
+					<option value="D">discoverers</option>
+				</select>
+				from the University of Wyoming. The scientists
+				<select class="custom-select mr-sm-2" id="a504">
+					<option selected>...</option>
+					<option value="A">made</option>
+					<option value="B">took</option>
+					<option value="C">did</option>
+					<option value="D">gained</option>
+				</select>
+				samples from black bears at the start and finish of the hibernation. The researchers had to
+				<select class="custom-select mr-sm-2" id="a505">
+					<option selected>...</option>
+					<option value="A">accurately</option>
+					<option value="B">steadily</option>
+					<option value="C">slowly</option>
+					<option value="D">carefully</option>
+				</select>
+				attach devices to the bears and this meant
+				<select class="custom-select mr-sm-2" id="a506">
+					<option selected>...</option>
+					<option value="A">climbing</option>
+					<option value="B">running</option>
+					<option value="C">creeping</option>
+					<option value="D">sliding</option>
+				</select>
+				into the caves
+				<select class="custom-select mr-sm-2" id="a507">
+					<option selected>...</option>
+					<option value="A">at</option>
+					<option value="B">in</option>
+					<option value="C">on</option>
+					<option value="D">over</option>
+				</select>
+				the autumn and spring. They attached a machine to the bears’ legs for
+				<select class="custom-select mr-sm-2" id="a508">
+					<option selected>...</option>
+					<option value="A">measuring</option>
+					<option value="B">guessing</option>
+					<option value="C">adding</option>
+					<option value="D">estimating</option>
+				</select>
+				muscle strength. The device was
+				<select class="custom-select mr-sm-2" id="a509">
+					<option selected>...</option>
+					<option value="A">stuck</option>
+					<option value="B">tied</option>
+					<option value="C">transmitted</option>
+					<option value="D">connected</option>
+				</select>
+				to a computer and very small electric
+				<select class="custom-select mr-sm-2" id="a510">
+					<option selected>...</option>
+					<option value="A">wires</option>
+					<option value="B">messages</option>
+					<option value="C">signals</option>
+					<option value="D">shocks</option>
+				</select>
+				were sent to the bears’ nerves causing the legs to move suddenly and the measurement was then taken.</p>
+	 		</div>
+	 		<div class="answer_choice_2">
+				<p>The scientists are
+				<select class="custom-select mr-sm-2" id="a511">
+					<option selected>...</option>
+					<option value="A">optimistic</option>
+					<option value="B">enthusiastic</option>
+					<option value="C">sympathetic</option>
+					<option value="D">pessimistic</option>
+				</select>
+				that their research will enable them to help humans that are confined
+				<select class="custom-select mr-sm-2" id="a512">
+					<option selected>...</option>
+					<option value="A">to</option>
+					<option value="B">in</option>
+					<option value="C">at</option>
+					<option value="D">with</option>
+				</select>
+				bed for a long time. Human beings that are
+				<select class="custom-select mr-sm-2" id="a513">
+					<option selected>...</option>
+					<option value="A">inactive</option>
+					<option value="B">unenergetic</option>
+					<option value="C">lazy</option>
+					<option value="D">unmovable</option>
+				</select>
+				for 130 days lose a/an
+				<select class="custom-select mr-sm-2" id="a514">
+					<option selected>...</option>
+					<option value="A">guessed</option>
+					<option value="B">estimated</option>
+					<option value="C">predicted</option>
+					<option value="D">measured</option>
+				</select>
+				90% of their body strength. Furthermore, in the future there might be long-distance space
+				<select class="custom-select mr-sm-2" id="a515">
+					<option selected>...</option>
+					<option value="A">journey</option>
+					<option value="B">trip</option>
+					<option value="C">voyage</option>
+					<option value="D">travel</option>
+				</select>
+				and the effects of lack of muscle movement will need to be considered.</p>
+	 		</div>
+	 	</div>
+		<input type="submit" class="answer_button" value="Reply" id="b5" onclick="
+			var token = (new URLSearchParams(window.location.search)).get('token');
+			var questions = '';
+			var answers = '';
+			
+			for (var i = 1; i <= 15; i++) {
+				questions += '&questions[]=' + (500 + i);
+				answers += '&answers[]=' + document.getElementById('a' + (500 + i)).value;
+			}
+			
+			var xhr = new XMLHttpRequest();
+			xhr.open('GET', 'https://englymp.ru/API/user.steps.done.php?' + questions + answers + '&token=' + token, false);
+			xhr.send();
+			if (time > 0) alert(xhr.responseText);
+		">
+	</div>
+</div>

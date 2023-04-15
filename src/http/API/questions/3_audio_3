@@ -1,0 +1,43 @@
+<div class="audirovanie_3">
+	<h2>Listening</h2>
+	<audio controls><source src="https://englymp.ru/resources/audio_3.mp3" type="audio/mpeg">audio не поддерживается вашим браузером.</audio>
+	<div class="container">
+		<div class="row">
+			<div class="column_">
+				<p>
+					You will hear a recorded message about a tourist attraction called the Grand Palace.
+					For each question, fill in the missing information in the numbered space.
+				</p>
+				<div class="answer_choice_3">
+					<h5>The Grand Palace</h5>
+					<p>The Palace is now open again.
+						Repairs to the <input type="text" placeholder="Your answer" value="" id="a301" maxlength="32"> are finished.
+						There is a display of <input type="text" placeholder="Your answer" value="" id="a302" maxlength="32"> in the entrance hall to explain the work.
+						In the music room, you can see the Queen's <input type="text" placeholder="Your answer" value="" id="a303" maxlength="32">.
+						Light snacks are available in the tea-room or the <input type="text" placeholder="Your answer" value="" id="a304" maxlength="32">.
+						The Palace is open 10:00-18:00 from June to <input type="text" placeholder="Your answer" value="" id="305" maxlength="32">.
+						A family ticket costs <input type="text" placeholder="Your answer" value="" id="a305" maxlength="32">.
+					</p>
+				</div>
+			</div>	 
+		</div>
+		<input type="submit" class="answer_button" value="Reply" id="b3" onclick="
+			var token = (new URLSearchParams(window.location.search)).get('token');
+			var questions = '';
+			var answers = '';
+			
+			for (var i = 1; i <= 5; i++) {
+				questions += '&questions[]=' + (300 + i);
+				answers += '&answers[]=' + document.getElementById('a' + (300 + i)).value;
+			}
+			
+			var xhr = new XMLHttpRequest();
+			xhr.open('GET', 'https://englymp.ru/API/user.steps.done.php?' + questions + answers + '&token=' + token, false);
+			xhr.send();
+			if (time > 0) alert(xhr.responseText);
+		">
+	</div>
+</div>
+
+			
+	

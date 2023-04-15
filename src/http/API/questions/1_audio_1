@@ -1,0 +1,210 @@
+<div class="audirovanie">
+	<h2>Listening</h2>
+	<audio controls><source src="/resources/audio_1.mp3" type="audio/mpeg">audio не поддерживается вашим браузером.</audio>
+ 	<div class="container">
+ 		<div class="row">
+ 			<p>
+				There are seven questions in this part.
+				For each question there are three pictures and a short recording.
+				Choose the correct picture and put a tick in the box bellow it.
+ 			</p>
+ 			<div class="answer_choice">
+ 				<p class="question">1. Which band will the girl watch?</p>
+				<div class="audir_box">
+					<div class="img_block">
+						<img src="https://i.imgur.com/rlloUZd.png " alt="Question1">
+						<div class="radio_box">
+							<span>A</span>
+							<input type="radio" name="audir1_1" value="A" id="a101" checked>
+						</div>
+					</div>
+					<div class="img_block">
+						<img src="https://i.imgur.com/qDE5okr.png " alt="Question1">
+						<div class="radio_box">
+						<span>B</span>
+						<input type="radio" name="audir1_1" value="B" id="a101">
+						</div>
+					</div>
+					<div class="img_block">
+						<img src="https://i.imgur.com/qDE5okr.png" alt="Question1">
+						<div class="radio_box">
+							<span>C</span>
+							<input type="radio" name="audir1_1" value="C" id="a101">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="answer_choice">
+				<p class="question">2. Where does the boy feel pain now?</p>
+				<div class="audir_box">
+					<div class="img_block">
+						<img src="https://i.imgur.com/5VCRvnT.png" alt="Question1">
+						<div class="radio_box">
+						<span>A</span>
+						<input type="radio" name="audir1_2" value="A" id="a102" checked>
+					</div>
+				</div>
+				<div class="img_block">
+					<img src="https://i.imgur.com/AA9kiyq.png" alt="Question1">
+					<div class="radio_box">
+						<span>B</span>
+						<input type="radio" name="audir1_2" value="B" id="a102">
+					</div>
+				</div>
+					<div class="img_block">
+						<img src="https://i.imgur.com/txrMJ7G.png" alt="Question1">
+						<div class="radio_box">
+							<span>C</span>
+							<input type="radio" name="audir1_2" value="C" id="a102">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="answer_choice">
+				<p class="question">3. Where is the computer now?</p>
+				<div class="audir_box">
+					<div class="img_block">
+						<img src="https://i.imgur.com/wgstBpI.png" alt="Question1">
+						<div class="radio_box">
+							<span>A</span>
+							<input type="radio" name="audir1_3" value="A" id="a103" checked>
+						</div>
+					</div>
+					<div class="img_block">
+						<img src="https://i.imgur.com/q0oudBv.png" alt="Question1">
+ 						<div class="radio_box">
+							<span>B</span>
+							<input type="radio" name="audir1_3" value="B" id="a103">
+ 						</div>
+ 					</div>
+ 					<div class="img_block">
+ 						<img src="https://i.imgur.com/G8VbCpD.png" alt="Question1">
+ 						<div class="radio_box">
+							<span>C</span>
+							<input type="radio" name="audir1_3" value="C" id="a103">
+						</div>
+					</div>
+				 </div>
+			</div>
+			<div class="answer_choice">
+ 				<p class="question">4. How does the woman recommend travelling around the island?</p>
+				<div class="audir_box">
+					<div class="img_block">
+ 						<img src="https://i.imgur.com/r8cFksg.png" alt="Question1">
+ 						<div class="radio_box">
+							<span>A</span>
+ 							<input type="radio" name="audir1_4" value="A" id="a104" checked>
+ 						</div>
+ 					</div>
+ 					<div class="img_block">
+ 						<img src="https://i.imgur.com/V5hOSEk.png" alt="Question1">
+ 						<div class="radio_box">
+ 							<span>B</span>
+ 							<input type="radio" name="audir1_4" value="B" id="a104">
+ 						</div>
+ 					</div>
+ 					<div class="img_block">
+ 						<img src="https://i.imgur.com/Y4C4830.png" alt="Question1">
+ 						<div class="radio_box">
+							<span>C</span>
+							<input type="radio" name="audir1_4" value="C" id="a104">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="answer_choice">
+ 				<p class="question">5. What do both girls decide to wear to the disco?</p>
+				<div class="audir_box">
+					<div class="img_block">
+ 						<img src="https://i.imgur.com/J0dPRYf.png" alt="Question1">
+ 						<div class="radio_box">
+ 							<span>A</span>
+ 							<input type="radio" name="audir1_5" value="A" id="a105" checked>
+ 						</div>
+ 					</div>
+ 					<div class="img_block">
+ 						<img src="https://i.imgur.com/4eDCVPy.png" alt="Question1">
+ 						<div class="radio_box">
+ 							<span>B</span>
+ 							<input type="radio" name="audir1_5" value="B" id="a105">
+ 						</div>
+ 					</div>
+ 					<div class="img_block">
+ 						<img src="https://i.imgur.com/AtHcqUB.png" alt="Question1">
+ 						<div class="radio_box">
+							<span>C</span>
+							<input type="radio" name="audir1_5" value="C" id="a105">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="answer_choice">
+				<p class="question">6. Who gave the man the CD for his birthday?</p>
+				<div class="audir_box">
+					<div class="img_block">
+ 						<img src="https://i.imgur.com/BRr3jvI.png" alt="Question1">
+ 						<div class="radio_box">
+ 							<span>A</span>
+							<input type="radio" name="audir1_6" value="A" id="a106" checked>
+ 						</div>
+ 					</div>
+ 					<div class="img_block">
+ 						<img src="https://i.imgur.com/POnTm8C.png" alt="Question1">
+ 						<div class="radio_box">
+ 							<span>B</span>
+ 							<input type="radio" name="audir1_6" value="B" id="a106">
+ 						</div>
+ 					</div>
+ 					<div class="img_block">
+ 						 <img src="https://i.imgur.com/P83kuom.png" alt="Question1">
+ 						 <div class="radio_box">
+							<span>C</span>
+							<input type="radio" name="audir1_6" value="C" id="a106">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="answer_choice">
+ 				<p class="question">7. What is the man going to order?</p>
+				<div class="audir_box">
+					<div class="img_block">
+ 						<img src="https://i.imgur.com/Yp093qN.png" alt="Question1">
+ 						<div class="radio_box">
+							<span>A</span>
+ 							<input type="radio" name="audir1_7" value="A" id="a107" checked>
+ 						</div>
+ 					</div>
+ 					<div class="img_block">
+ 						<img src="https://i.imgur.com/Yp093qN.png" alt="Question1">
+ 						<div class="radio_box">
+ 							<span>B</span>
+ 							<input type="radio" name="audir1_7" value="B"id="a107">
+						</div>
+ 					</div>
+ 					<div class="img_block">
+ 						<img src="https://i.imgur.com/Yp093qN.png" alt="Question1">
+ 						<div class="radio_box">
+							<span>C</span>
+							<input type="radio" name="audir1_7" value="C" id="a107">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<input type="submit" class="answer_button" value="Reply" id="b1" onclick="
+			var token = (new URLSearchParams(window.location.search)).get('token');
+			var questions = '';
+			var answers = '';
+			
+			for (var i = 1; i <= 7; i++) {
+				questions += '&questions[]=' + (100 + i);
+				answers += '&answers[]=' + document.querySelector('input[id=a' + (100 + i) + ']:checked').value;
+			}
+			
+			var xhr = new XMLHttpRequest();
+			xhr.open('GET', 'https://englymp.ru/API/user.steps.done.php?' + questions + answers + '&token=' + token, false);
+			xhr.send();
+			if (time > 0) alert(xhr.responseText);
+		">
+	</div>
+</div>

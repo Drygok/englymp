@@ -1,0 +1,554 @@
+body{
+	font-size: 14px;
+}
+
+a.active.focus,
+a.active:focus,
+a.focus,
+a:active.focus,
+a:active:focus,
+a:focus,
+button.active.focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button:active:focus,
+button:focus,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus,
+input,
+input:active,
+input:focus,
+audio,
+audio:active,
+audio:focus {
+	outline: 0!important;
+	outline-color: transparent!important;
+	outline-width: 0!important;
+	outline-style: none!important;
+	box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
+}
+
+
+a{
+	color: #fff !important;
+	text-decoration: none !important;
+}
+
+.navbar{
+	background: #343535;
+	height: 56px;
+}
+
+.navbar-brand{
+	cursor: default;
+}
+
+.navbar a:hover{
+	color: #fff;
+	cursor: default;
+}
+
+.main_section{
+	background-image: url(../img/main_bg.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: calc(100vh - 56px);
+
+}
+
+.main_box{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: 30vh;
+}
+
+.main_title,
+.main_title_text
+{
+	text-align: center;
+	font-weight: bold;
+	color: #343535;
+}
+.main_title_text{
+	width: 85%
+}
+
+.main_button{
+	margin-top: 50px;
+	background: linear-gradient( 90deg, #050176, #ff0001);
+	border: none;
+	outline: none;
+	color: #fff;
+	padding: 10px 40px;
+}
+
+.form_section{
+	background-image: url(../img/form_bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: calc(100vh - 56px);
+}
+
+.form_section .container{
+	height: 100%
+}
+
+.form_section .row{
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.form_box{
+	display: flex;
+	flex-direction: column;
+}
+
+.input_name,
+.input_surname,
+.input_middle_name,
+.input_group,
+.input_teacher{
+	padding: 3px 10px;
+	border-radius: 6px;
+	border: 1px #000 solid;
+	margin: 10px 0px;
+}
+
+
+
+.input_name::placeholder,
+.input_surname::placeholder,
+.input_middle_name::placeholder,
+.input_group::placeholder,
+.input_teacher::placeholder{
+
+}
+
+.form_note{
+	color: #fff;
+	font-size: 12px;
+}
+
+.submit_button{
+	margin-top: 20px;
+	padding: 7px 20px;
+	background: linear-gradient( 90deg, #050176, #ff0001);
+	border-radius: 0px;
+	border: none;
+	outline: none;
+	color: #fff;
+}
+
+.test_secrion{
+	
+}
+
+ul {
+	margin-top: 10px;
+   list-style-type: none; 
+   display: flex;
+   flex-wrap: wrap;
+}
+.nav-link{
+	padding: 0px 7px !important;
+	border-radius: 1.25rem !important;
+	/*padding: 0px !important; 
+	display: block;
+    width: 265%;
+    right: 7px;
+    position: relative;
+    text-align: center;*/
+}
+.nav-link.active{
+	/*display: block;
+    width: 265%;
+    right: 7px;
+    position: relative;
+    border-radius: 16px !important;
+   
+    background: #2A318D;
+    z-index: 1000000;*/
+
+}
+
+.card-header li{
+	color: #fff;
+	margin: 0px 10px; 
+	background-color: #606060;
+	border-radius: 12px;
+}
+/*li:before {
+  content: counter(item) ') '; 
+  counter-increment: item;
+}*/
+.audirovanie{
+	
+}
+.answer_choice{
+
+	
+}
+.img_block{
+	display: flex;
+	flex-direction: column;
+}
+.img_block img{
+	width: 85%;
+	height: 85%;
+}
+
+.radio_box{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 15px;
+	margin-right: 45px;
+}
+.audir_box{
+	display: flex;
+	margin-left: 75px
+}
+
+.radio_box input{
+	border-radius: 5px;
+	margin-left: 10px;
+}
+/*.audirovanie audio{
+	position: relative;
+	left: 70%;
+}*/
+.answer_button{
+	font-size: 22px;
+	margin: 40px 40px; 
+	padding: 7px 60px;
+	background: linear-gradient( 90deg, #050176, #ff0001);
+	border-radius: 0px;
+	border: none;
+	outline: none;
+	color: #fff;
+}
+.audirovanie_2 span{
+	margin-top: 20px;
+}
+
+.answer_choice_2{
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+.answer_choice_2 p{
+	margin-right: 15px;
+	margin-bottom: 0px;
+}
+.custom-select{
+	width: 30% !important;
+}
+
+.column_{
+	flex-direction: column;
+}
+
+.audir3_img{
+	margin: 40px 0px;
+	margin-left: 20%;
+	display: flex;
+	justify-content: center;
+	width: 60%;
+	height: 500px;
+}
+.answer_choice_3 input{
+	height: 25px;
+    padding: 0px 0px 0px 7px;
+    font-size: 14.5px;
+    margin-left: 5px;
+}
+
+.audir_3_answer{
+	margin: 10px;
+}
+.audir_3_answer input{
+	border-radius: 5px;
+    margin: 0px 10px;
+    outline: none !important;
+    border: 1px solid #959595;
+    padding: 0px 13px;
+}
+
+.answer_choice_4{
+	margin-bottom: 20px;
+}
+
+.radio_box_2{
+	display: flex;
+	align-items: center;
+	
+	margin-top: 15px;
+	margin-left: 30px;
+	margin-right: 45px;
+}
+.radio_box_2 input{
+	margin-right: 15px;
+
+}
+ .Writigng1 li input{
+	border-radius: 4px;
+	border: 1px solid #959595;
+	padding-left: 10px;
+}
+.reading_1_ol_1{
+	margin-top: 40px;
+}
+
+.reading_1_ol_2{
+	width: 60%;
+	float: right;
+	margin-top: 30px;
+}
+
+.reading_1_li{
+	margin-bottom: 50px;
+}
+.reading_1_li img{
+	width: 300px;
+    height: 250px;
+}
+
+.reading_1_li input{
+	margin-right: 10px;
+}
+
+.reading_2_li{
+	margin-bottom: 30px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #959595; 
+}
+.reading_2_li img{
+	width: 200px;
+    height: 150px;
+}
+
+.reading_2_ol_2 li{
+	padding-left: 30px;
+	margin: 20px 0px;
+}
+
+.table_input{
+	width: 100%;
+	text-align: center;
+}
+
+table, tr, th{
+	border: 1px solid; 
+}
+table{
+	width: 500px;
+}
+th{
+	text-align: center !important;
+}
+
+.answer_choice_8{
+	
+}
+.reading3_text{
+	padding: 0px 40px;
+}
+.reading3_text_title{
+	text-align: center;
+	margin-bottom: 15px;
+}
+.answer_choice_8 input{
+	margin: 0px 10px ;
+}
+
+.input_box li{
+	margin-right: 30px;
+}
+
+.answer_choice_10_li{
+	margin: 15px 0px; 
+}
+
+.bg_otv_question{
+	background: #4645f7 !important;
+}/* Стиль для отметки отвеченного вопроса*/
+
+.time{
+	display: flex;
+	justify-content: flex-end;
+	margin: 20px 100px 0px 0px;
+	align-items: center;
+}
+.time h5{
+	margin-bottom: 0.25rem;
+}
+
+.time span{ 
+	padding-left: 10px
+}
+
+
+.question{
+	margin: 20px 0px;
+}
+
+.audir_4_answer{
+	margin-bottom: 20px;
+}
+.answer_choice_8 ol li{
+	margin-bottom: 15px;
+}
+
+.answer_choice_8 ol li ol{
+	margin-top: 20px;
+}
+.Writigng1 ol li{
+	margin-bottom: 15px;
+}
+.answer_choice{
+	margin-bottom: 25px;
+}
+@media screen and (max-width: 1200px){
+	.reading_1_ol_2{
+		width: 65%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.reading_1_ol_2{
+		padding-inline-start: 5px;
+    	width: 100%;
+    	margin-bottom: 50px;
+    }
+    .reading_2_li{
+		padding-bottom: 111px;
+	}
+
+}
+
+}
+@media screen and (max-width: 767px) {
+
+	.main_box{
+	    top: 10vh;
+	}
+	.reading_1_ol_2{
+		padding-inline-start: 5px;
+    	width: 100%;
+    	margin-bottom: 50px;
+    }
+    .input_box{
+    	display: block !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+	/*ГЛАВНАЯ*/
+	.main_title,
+	.main_title_text{
+		text-align: center;
+	}
+
+	.main_title{
+		padding: 20px;
+		font-size: 1.7rem;
+	}
+
+	.main_title_text{
+		font-size: 14px;
+	}
+
+	.main_box{
+	    top: 10vh;
+	}
+	.main_button{
+		margin-top: 0px;
+	}
+
+	/* /ГЛАВНАЯ*/
+
+	/* ФОРМА*/
+	.form_box{
+		top: 20%;
+		right: 20%;
+	}
+	/* /ФОРМА*/
+
+
+	/* ТЕСТ*/
+	.navbar-brand{
+		font-size: 13px !important;
+	}
+	.card-header {
+    	padding: 0.5rem 1.25rem;
+	}
+	.card-header li {
+		margin: 5px 10px;
+	}
+	.time{
+		margin-right: 50px;
+	}
+	audio{
+		width: 280px !important;
+	}
+	.audir_box {
+    	margin-left: 0px;
+    	margin-bottom: 10px;
+    }
+    .radio_box{
+    	margin-right: 20px;
+    }
+    .custom-select{
+    	width: 70% !important;
+    }
+    .Writigng1 ol li{
+    	margin-bottom: 15px;
+    }
+    .reading_1_li img {
+    	width: 200px;
+    	height: 170px;
+	}
+	.reading_1_ol_2{
+		padding-inline-start: 5px;
+    	width: 100%;
+    	margin-bottom: 50px;
+	}
+	.reading_1_ol_2 li{
+		margin-bottom: 15px;
+	}
+	.reading_1_li{
+		margin-bottom: 50px;
+	}
+	.reading_1_ol_1{
+		padding-inline-start: 10px;
+    	margin-bottom: 50px;
+	}
+	.reading_2_li{
+		border-bottom: none;
+	}
+	.reading_2_ol_2{
+		padding-inline-start: 10px;
+	}
+	table{
+		width: 100%;
+	}
+	.reading3_text{
+		padding: 0px;
+	}
+	.input_box{
+		display: block !important;
+
+	}
+	.input_box li{
+		margin: 5px 0px; 
+	}
+}
